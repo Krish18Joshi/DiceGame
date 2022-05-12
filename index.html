@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<style>
+  #b1{
+    position: fixed;
+    left: 3rem;
+    bottom: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    cursor:pointer;
+    scroll-behavior: smooth;
+  }
+  #b1:hover{
+    background-color: #4ECCA3;
+  }
+  #b2{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor:pointer;
+    scroll-behavior: smooth;
+  }
+  #b2:hover{
+    background-color: #4ECCA3;
+  }
+</style>
+  </head>
+  <body>
+    <!--        FrontPage         -->
+<div id="front">
+                  
+                  <div id="body">
+                    <p id="p1"> Hello, it's me<br><a id="a">krish joshi</a>
+                    </p>    
+</div></div>
+<div id="h2">"Project 2nd"   <hr id="hr"></div>
+<div id="div">
+    <div class="container">
+
+      <h1 id="h1">Refresh Me</h1>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="dice1.png">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="dice2.png">
+      </div>
+      <button id="b1"><span class="material-icons">
+        arrow_upward
+        </span></button>
+    </div></div>
+
+<script src="index.js" charset="utf-8"></script>
+  
+
+  <footer style="font-size: 3rem;">
+  www.krish18joshi.com
+  </footer>
+   
+  <button id="b2"><span class="material-icons">
+    arrow_downward
+    </span></button>
+
+    <script>
+
+      const b2  = document.querySelector("#b2");
+      b2.addEventListener("click",function(){
+      window.scrollTo(0,900);
+      });
+          </script>
+ 
+    <script>
+
+const b1  = document.querySelector("#b1");
+b1.addEventListener("click",function(){
+window.scrollTo(0,0);
+});
+    </script>
+  </body>
+</html>

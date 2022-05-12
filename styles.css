@@ -1,0 +1,117 @@
+
+   /*-------FrontPage------*/
+   *{
+    margin: 0;
+    padding: 0;
+  }
+  #body {
+ 
+      width: 100%;
+      height: 800px;
+      position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+  }
+  #a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 124px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+  #p1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 80px;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+  }
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+#div{
+  margin: 0px;
+  
+  background-color: wheat;
+}
+.container {
+ 
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+#bod {
+  background-color: #393E46;
+}
+#h2 {
+  margin: 0px;
+  padding-top: 5rem;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #1a1b1b;
+  font-size: 8rem;
+  background-color: wheat;
+  color: #f0f0f0;
+}
+h1 {
+  margin: 0px;
+  padding-top: 5rem;
+  
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #1a1b1b;
+  font-size: 6rem;
+  color: #4ECCA3;
+}
+#hr{
+  margin-top: 4rem;
+  width: 70%;
+  height: 0.2rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(9, 84, 132), rgba(0, 0, 0, 0));
+  margin-left: auto;
+  border-radius: 20px;
+  margin-right: auto;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  
+  padding: 5rem;
+  margin: 0;
+  color: #000000;
+  background-color: wheat;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
